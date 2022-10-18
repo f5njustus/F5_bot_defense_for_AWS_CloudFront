@@ -156,5 +156,5 @@ References
     Load Balancing and Proxy
 
 
-.. |BotDefense1| image:: Console1.png
+.. |BotDefense1| image:: Console_1.png
    :width: 800px
