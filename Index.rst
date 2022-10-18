@@ -1,3 +1,5 @@
+Intro
+|BotDefense1|
 
 
 AWS CloudFront
@@ -152,3 +154,7 @@ References
     Firewall or Proxy Reference for Distributed Cloud
     System Overview
     Load Balancing and Proxy
+
+
+.. |BotDefense1| image:: Console1.png
+   :width: 800px
