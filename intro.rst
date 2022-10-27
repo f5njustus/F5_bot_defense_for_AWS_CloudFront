@@ -76,60 +76,6 @@ step below to access the F5 Distributed Cloud Lab Tenant.
 +----------------------------------------------------------------------------------------------+
 
 +----------------------------------------------------------------------------------------------+
-| 6. You can adjust your work domains and skill level (not required) by clicking on the        |
-|                                                                                              |
-|    **Account** icon in the top right of the screen and then clicking on **Account Settings**.|
-|                                                                                              |
-| 7. In the resulting window you can observe the **Work domains and skill level** section and  |
-|                                                                                              |
-|    other administrative functions.                                                           |
-|                                                                                              |
-| .. note::                                                                                    |
-|    *For the purposes of this lab, permissions have been restricted to lab operations.  As*   |
-|                                                                                              |
-|    *some menus will be locked and not visible.*                                              |
-+----------------------------------------------------------------------------------------------+
-| |intro006|                                                                                   |
-|                                                                                              |
-| |intro007|                                                                                   |
-+----------------------------------------------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------------+
-| 8. Namespaces, which provide an environment for isolating configured applications or         |
-|                                                                                              |
-|    enforcing role-based access controls, are leveraged within the F5 Distributed Cloud       |
-|                                                                                              |
-|    Console.  For the purposes of this lab, each lab attendee has been provided a unique      |
-|                                                                                              |
-|    **namespace** which you will be defaulted to (in terms of GUI navigation) for all tasks   |
-|                                                                                              |
-|    performed through the course of this lab.                                                 |
-|                                                                                              |
-| 9. Click on the **Select Service** in the left-hand navigation. In the resulting fly out     |
-|                                                                                              |
-|    navigation, click **Load Balancers**.                                                     |
-|                                                                                              |
-| 10. In the **Load Balancers** configuration screen observe the URL. In the URI path, locate  |
-|                                                                                              |
-|     the **<adjective-animal>** namespace that you have been assigned. It will be located in  |
-|                                                                                              |
-|     the portion of the URI path between */namespaces/* and */sites/* as shown in this        |
-|                                                                                              |
-|     example **…/namespaces/<namespace>/sites/…**. Note the namespace as it will be used      |
-|                                                                                              |
-|     throughout the lab tasks that follow.                                                    |
-|                                                                                              |
-| .. note::                                                                                    |
-|    *Administratively, there are other ways to find namespaces. Due to access and permission* |
-|                                                                                              |
-|    *restrictions for this particular lab, those menus are not available.*                    |
-+----------------------------------------------------------------------------------------------+
-| |intro008|                                                                                   |
-|                                                                                              |
-| |intro009|                                                                                   |
-+----------------------------------------------------------------------------------------------+
-
-+----------------------------------------------------------------------------------------------+
 | **Beginning of Lab:**  You are now ready to begin the lab, Enjoy! Ask questions as needed.   |
 +----------------------------------------------------------------------------------------------+
 | |labbgn|                                                                                     |
@@ -144,14 +90,6 @@ step below to access the F5 Distributed Cloud Lab Tenant.
 .. |intro004| image:: images/intro-004.png
    :width: 800px
 .. |intro005| image:: images/intro-005.png
-   :width: 800px
-.. |intro006| image:: images/intro-006.png
-   :width: 800px
-.. |intro007| image:: images/intro-007.png
-   :width: 800px
-.. |intro008| image:: images/intro-008.png
-   :width: 800px
-.. |intro009| image:: images/intro-009.png
    :width: 800px
 .. |labbgn| image:: images/labbgn.png
    :width: 800px
