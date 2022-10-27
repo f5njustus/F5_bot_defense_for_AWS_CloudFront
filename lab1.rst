@@ -1,52 +1,46 @@
-Intro
-Bot Defense protects your Internet Applications from automated attacks by identifying and mitigating malicious bots.
+Lab 1: Building the F5 Distributed Cloud Bot Defense for Amazon CloudFront CDN
+=========================================================================================
 
-On the client, Bot Defense uses JavaScript or native Mobile SDK to collect telemetry. This telemetry is then attached in the form of HTTP headers to the protected requests.
-
-On the server, protected requests are configured to be examined by the Bot Defense solution before being permitted to reach the customer’s application.
-
-The Distributed Cloud Services Console allows you to configure the endpoints you want to protect and download a configuration file and AWS Installer tool to use on the AWS Console. 
-
-Once Bot Defense is enabled and deployed on AWS, you can view and filter traffic and transaction statistics with the Bot Defense Dashboard in Distributed Cloud Console to see which users are malicious and how they’re being mitigated.
+Lab 1 will focus on the deployment and configuration of the F5 Distributed Cloud Bot Defense for Amazon CloudFront CDN.
+These steps will leverage the F5 Distributed Cloud console and resources delivered via AWS CloudFront CDN. You will begin
+this lab from the F5 Dsitributed Cloud main services dashboard.
 
 |BotDefense1|
 
+Task 1: Create a new Bot Defense application for AWS CloudFront​
 
-AWS CloudFront
-Create a new Bot Defense application for AWS CloudFront​
+  # Go to the Dashboard page of XC console and click Bot Defense.
+  # Click Add Application at the top-left of the page. If no applications exist, a prompt appears about adding a protected application.
+  # Add a Name for the Application, and a Description.
+  # Select a region (US, EMEA, or APJC).
+  # For Connector Type, select AWS CloudFront. Once AWS CloudFront is selected, options appear to configure AWS reference details.
 
-    Go to the Dashboard page of XC console and click Bot Defense.
-    Click Add Application at the top-left of the page. If no applications exist, a prompt appears about adding a protected application.
-    Add a Name for the Application, and a Description.
-    Select a region (US, EMEA, or APJC).
-    For Connector Type, select AWS CloudFront. Once AWS CloudFront is selected, options appear to configure AWS reference details.
+Task 2: Add AWS Reference Information​
 
-Add AWS Reference Information​
+  # Enter your AWS 12-digit account number. F5 gives you account access to the F5 Distributed Cloud (XC) Bot Defense connector on your AWS Serverless App Repository (SAR).
+  # Specify your AWS Configuration and add your CloudFront distribution; a Distribution ID and/or a Distribution Tag. You can add one or more distributions. This information is needed to associate your newly created protected application to your AWS distribution(s).
 
-    Enter your AWS 12-digit account number. F5 gives you account access to the F5 Distributed Cloud (XC) Bot Defense connector on your AWS Serverless App Repository (SAR).
-    Specify your AWS Configuration and add your CloudFront distribution; a Distribution ID and/or a Distribution Tag. You can add one or more distributions. This information is needed to associate your newly created protected application to your AWS distribution(s).
+Task 3: Add Protected Endpoints​
 
-Add Protected Endpoints​
+  # Click Configure to define your protected endpoints. ​
+  # Click Add Item.
+  # Enter a name and a description to the specific endpoint.​
+  # Specify the Domain Matcher. You can choose any domain or specify a specific host value.​
+  # Specify the path to the endpoint (such as /login).​
+  # Specify a Query parameter, if needed. If a Query value is defined, the Bot Defense service looks at the Path and Query values.
+  # Choose the HTTP Methods for which request will be analyzed by Bot Defense. Multiple methods can be selected.
+  # Select the type of client that will access this endpoint (such as web only).​
+  # Select the mitigation action to be taken for this endpoint:
 
-    Click Configure to define your protected endpoints. ​
-    Click Add Item.
-    Enter a name and a description to the specific endpoint.​
-    Specify the Domain Matcher. You can choose any domain or specify a specific host value.​
-    Specify the path to the endpoint (such as /login).​
-    Specify a Query parameter, if needed. If a Query value is defined, the Bot Defense service looks at the Path and Query values.
-    Choose the HTTP Methods for which request will be analyzed by Bot Defense. Multiple methods can be selected.
-    Select the type of client that will access this endpoint (such as web only).​
-    Select the mitigation action to be taken for this endpoint:
+  ##  Continue (request continues to origin)​. You can choose to add a header to requests going to the origin for reporting purposes. Header definition is on next screen.
+  ##  Redirect​. Provide the appropriate Status Code and URI​
+  ##  Block. Provide the Status Code, Content Type, and Response message​.
 
-    Continue (request continues to origin)​. You can choose to add a header to requests going to the origin for reporting purposes. Header definition is on next screen.
-    Redirect​. Provide the appropriate Status Code and URI​
-    Block. Provide the Status Code, Content Type, and Response message​.
+  # When done configuring the endpoint, click Apply.
+  # Your protected endpoint is added to the table. The Actions column allows you to modify the endpoints. You can add additional new endpoints via the Add Item button.
+  # To continue, click Apply at the bottom of the page.
 
-    When done configuring the endpoint, click Apply.
-    Your protected endpoint is added to the table. The Actions column allows you to modify the endpoints. You can add additional new endpoints via the Add Item button.
-    To continue, click Apply at the bottom of the page.
-
-Define Continue Global Mitigation Action​
+Task 4: Define Continue Global Mitigation Action​
 
 The Header Name for Continue Mitigation Action field is the header that is added to the request when the Continue mitigation action is selected and Add A Header was selected in the endpoint mitigation configuration screen.
 Define Web Client JavaScript Settings​
@@ -166,5 +160,5 @@ References
     Load Balancing and Proxy
 
 
-.. |BotDefense1| image:: images/console-001.png
+.. |lab-001| image:: images/lab-001.png
    :width: 800px
