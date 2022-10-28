@@ -102,14 +102,14 @@ Task 5: Define Web Client JavaScript Settings
 8. Once all JS Insertions Paths are added, click **Apply**.
 9. You can choose specific web pages to exclude. In the **Exclude Paths** field, click **Add Item**. It is better to be selective with **JS Insertions** to save money rather than adding a long list of exclusions. A small cost is incurred per inclusion request for AWS lambda to check for exclusions.
 
-.. code-block::
-       Include examples:
-         /login/*
-         /catalog
+.. code-block:: text
 
-       Exclude examples:
-         /login/images
-         /catalog/soldout/*
+    Include examples:
+      /login/\*
+      /catalog
+    Exclude examples:
+      /login/images
+      /catalog/soldout/\*
 
 10. Specify a **Name**, **Domain Matcher**, and **Path** to exclude. You can choose from Prefix, Path, or Regex for **Path Match**. Click **Apply**. This adds an item to the table. You can add more excluded pages to the table.
 
@@ -139,13 +139,17 @@ If you require Manual JavaScript Insertion, add the following tags to one of the
 
 Matcher Config JavaScript
 ------------------------
-.. code-block::
-   <script type='text/javascript' src='INJECTION_PATH?matcher'></script>​
+
+.. code-block:: html
+
+    <script type='text/javascript' src='INJECTION_PATH?matcher'></script>​
 
 I/O Hook JavaScript
 -------------------
-.. code-block::
-   <script type='text/javascript' src='INJECTION_PATH?cache'></script>​
+
+.. code-block:: html
+    
+    <script type='text/javascript' src='INJECTION_PATH?cache'></script>​
 
 Replace *INJECTION PATH* with the value you specified for Web Client JavaScript Path.
 
