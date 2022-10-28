@@ -101,14 +101,16 @@ Task 5: Define Web Client JavaScript Settings
 7. Click **Apply**. The **JS Insertion Path** is added to the table. Click **Add Item** to add additional JS Insertion Paths.
 8. Once all JS Insertions Paths are added, click **Apply**.
 9. You can choose specific web pages to exclude. In the **Exclude Paths** field, click **Add Item**. It is better to be selective with **JS Insertions** to save money rather than adding a long list of exclusions. A small cost is incurred per inclusion request for AWS lambda to check for exclusions.
-  .. code-block
-     Include examples​:
-       /login/*
-       /catalog
 
-     Exclude examples​:
-       /login/images​
-       /catalog/soldout/*
+.. code-block::
+   Include examples:
+     /login/*
+     /catalog
+
+   Exclude examples:
+     /login/images
+     /catalog/soldout/*
+
 10. Specify a **Name**, **Domain Matcher**, and **Path** to exclude. You can choose from Prefix, Path, or Regex for **Path Match**. Click **Apply**. This adds an item to the table. You can add more excluded pages to the table.
 
 |lab1-021|
@@ -130,18 +132,19 @@ Manual Javascript Insertion
 ---------------------------
 
 If you require Manual JavaScript Insertion, add the following tags to one of the recommended locations:
-* Immediately After <Head>
-* Immediately After </title>
-* Before <script> (first script tag on the page).
+
+  * Immediately After <Head>
+  * Immediately After </title>
+  * Before <script> (first script tag on the page).
 
 Matcher Config JavaScript
 ------------------------
-.. code-block
+.. code-block::
    <script type='text/javascript' src='INJECTION_PATH?matcher'></script>​
 
-I/O Hook JavaScript​
+I/O Hook JavaScript
 -------------------
-.. code-block
+.. code-block::
    <script type='text/javascript' src='INJECTION_PATH?cache'></script>​
 
 Replace *INJECTION PATH* with the value you specified for Web Client JavaScript Path.
@@ -161,8 +164,8 @@ Multiple headers can be added to the table and saved. IP Addresses need to be ad
 Task 9: Advanced Fields:Time out and Body Sample Size Limit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Timeout - defines the max time to send the requests to the Bot Defense Engine for analysis. If the timeout is exceeded, the request will continue to the origin (this is tracked in AWS CloudWatch). By default, the field is set to 700ms based on performance efficiency.
-* Body Sample Size - allows for additional request body data (other than F5 telemetry) to be sent for analysis. By default, this is set to 0 MB. Max size limit is 1MB.
+  * **Timeout** - defines the max time to send the requests to the Bot Defense Engine for analysis. If the timeout is exceeded, the request will continue to the origin (this is tracked in AWS CloudWatch). By default, the field is set to 700ms based on performance efficiency.
+  * **Body Sample Size** - allows for additional request body data (other than F5 telemetry) to be sent for analysis. By default, this is set to 0 MB. Max size limit is 1MB.
 
 Task 10: View Traffic
 ~~~~~~~~~~~~~~~~~~~~~
@@ -197,7 +200,7 @@ Configuration of the F5 Connector in AWS is best done via the F5 CLI tool. It is
 The installation tool saves the previous configuration of each CloudFront Distribution in a file. You can use the F5 tool to restore a saved Distribution config (thus removing F5 Bot Defense).
 
 .. note:: 
-   Note: Your F5 XC Bot Defense configuration, such as protected endpoints, is sensitive security info and is stored in AWS Secrets Manager. You should delete config.json after CLI installation.
+   Your F5 XC Bot Defense configuration, such as protected endpoints, is sensitive security info and is stored in AWS Secrets Manager. You should delete config.json after CLI installation.
 
 Task 11: AWS CloudWatch
 ~~~~~~~~~~~~~~~~~~~~~~~
