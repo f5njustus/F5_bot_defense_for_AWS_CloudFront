@@ -105,11 +105,11 @@ Task 5: Define Web Client JavaScript Settings
 .. code-block:: text
 
     Include examples:
-      /login/\*
+      /login/*
       /catalog
     Exclude examples:
       /login/images
-      /catalog/soldout/\*
+      /catalog/soldout/*
 
 10. Specify a **Name**, **Domain Matcher**, and **Path** to exclude. You can choose from Prefix, Path, or Regex for **Path Match**. Click **Apply**. This adds an item to the table. You can add more excluded pages to the table.
 
@@ -148,7 +148,7 @@ I/O Hook JavaScript
 -------------------
 
 .. code-block:: html
-    
+
     <script type='text/javascript' src='INJECTION_PATH?cache'></script>​
 
 Replace *INJECTION PATH* with the value you specified for Web Client JavaScript Path.
@@ -215,6 +215,10 @@ The logs of lambda function can be found in the region closest to the location w
 
 For troubleshooting, look for error messages contained in the links under Log steams.
 
+**End of Lab:**  This concludes the Lab, feel free to review and test the configuration.
+
+|labend|
+
 .. |lab1-001| image:: images/lab1-001.png
    :width: 800px
 .. |lab1-002| image:: images/lab1-002.png
@@ -266,4 +270,6 @@ For troubleshooting, look for error messages contained in the links under Log st
 .. |lab1-025| image:: images/lab1-025.png
    :width: 800px
 .. |lab1-026| image:: images/lab1-026.png
+   :width: 800px
+.. |labend| image:: images/labend.png
    :width: 800px
