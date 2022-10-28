@@ -121,6 +121,8 @@ Task 6: Download Config File and AWS Installer Tool
 
 1. In the Actions column of the table, click the 3 dots (…) on your application. Download both the config file and the AWS installer.
 
+|lab1-026|
+
 Task 7: Advanced Fields: Manual JS Insertion
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
