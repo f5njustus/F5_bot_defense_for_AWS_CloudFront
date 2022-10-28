@@ -149,5 +149,55 @@ Task 11: AWS CloudWatch
 
   For troubleshooting, look for error messages contained in the links under Log steams.
 
-.. |lab-001| image:: images/lab-001.png
+.. |lab-001| image:: images/lab1-001.png
+   :width: 800px
+.. |lab-002| image:: images/lab1-002.png
+   :width: 800px
+.. |lab-003| image:: images/lab1-003.png
+   :width: 800px
+.. |lab-004| image:: images/lab1-004.png
+   :width: 800px
+.. |lab-005| image:: images/lab1-005.png
+   :width: 800px
+.. |lab-006| image:: images/lab1-006.png
+   :width: 800px
+.. |lab-007| image:: images/lab1-007.png
+   :width: 800px
+.. |lab-008| image:: images/lab1-008.png
+   :width: 800px
+.. |lab-009| image:: images/lab1-009.png
+   :width: 800px
+.. |lab-010| image:: images/lab1-010.png
+   :width: 800px
+.. |lab-011| image:: images/lab1-011.png
+   :width: 800px
+.. |lab-012| image:: images/lab1-012.png
+   :width: 800px
+.. |lab-013| image:: images/lab1-013.png
+   :width: 800px
+.. |lab-014| image:: images/lab1-014.png
+   :width: 800px
+.. |lab-015| image:: images/lab1-015.png
+   :width: 800px
+.. |lab-016| image:: images/lab1-016.png
+   :width: 800px
+.. |lab-017| image:: images/lab1-017.png
+   :width: 800px
+.. |lab-018| image:: images/lab1-018.png
+   :width: 800px
+.. |lab-019| image:: images/lab1-019.png
+   :width: 800px
+.. |lab-020| image:: images/lab1-020.png
+   :width: 800px
+.. |lab-021| image:: images/lab1-021.png
+   :width: 800px
+.. |lab-022| image:: images/lab1-022.png
+   :width: 800px
+.. |lab-023| image:: images/lab1-023.png
+   :width: 800px
+.. |lab-024| image:: images/lab1-024.png
+   :width: 800px
+.. |lab-025| image:: images/lab1-025.png
+   :width: 800px
+.. |lab-026| image:: images/lab1-026.png
    :width: 800px
