@@ -19,7 +19,7 @@ Task 1: Create a new Bot Defense application for AWS CloudFront
 
 3. Add a **Name** for the Application, and a **Description**.
 4. Select a **Region** (US, EMEA, or APJC).
-5. For **Connector Type**, select *AWS CloudFront*. Once *AWS CloudFront* is selected, options appear to configure AWS reference details.
+5. For **Connector Type**, select *AWS CloudFront*. Once *Amazon CloudFront* is selected, options appear to configure Amazon reference details.
 
 |lab1-004|
 
@@ -29,7 +29,7 @@ Task 2: Add AWS Reference Information
 
 |lab1-005|
 
-2. Specify your AWS Configuration and add your CloudFront distribution via a **Distribution ID** and/or a **Distribution Tag**. You can add one or more distributions. This information is needed to associate your newly created protected application to your AWS distribution(s).
+2. Specify your Amazon Configuration and add your CloudFront distribution via a **Distribution ID** or a **Distribution Tag**. You can add one or more distributions. This information is needed to associate your newly created protected application to your AWS distribution(s).
 
 |lab1-007|
 
@@ -65,7 +65,8 @@ Task 3: Add Protected Endpoints
   * **Block**. Provide the Status Code, Content Type, and Response message
   
   Note: Mobile clients only allow Continue and Block. If you select Web and Mobile Client, you can select mitigation actions for each client type.
-  Note2: If you select Web and Mobile Client, you will need to enter a MObile Request Identifier Header, when enabling Mobile SDK Settings later in the configuration.
+ 
+  Note2: If you select Web and Mobile Client, you will need to enter a Mobile Request Identifier Header, when enabling Mobile SDK Settings later in the configuration.
 
 |lab1_updated13|
 |lab1_updated14|
