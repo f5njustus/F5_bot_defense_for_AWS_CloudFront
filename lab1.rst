@@ -29,7 +29,7 @@ Task 2: Add AWS Reference Information
 
 |lab1-005|
 
-2. Specify your AWS Configuration and add your CloudFront distribution; a **Distribution ID** and/or a **Distribution Tag**. You can add one or more distributions. This information is needed to associate your newly created protected application to your AWS distribution(s).
+2. Specify your AWS Configuration and add your CloudFront distribution via a **Distribution ID** and/or a **Distribution Tag**. You can add one or more distributions. This information is needed to associate your newly created protected application to your AWS distribution(s).
 
 |lab1-007|
 
