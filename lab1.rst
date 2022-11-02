@@ -57,17 +57,15 @@ Task 3: Add Protected Endpoints
 
 
 
-|lab1-012|
+|lab1_updated12|
 
 9. Select the mitigation action to be taken for this endpoint:
   * **Continue** (request continues to origin). You can choose to add a header to requests going to the origin for reporting purposes. Header definition is on next screen.
   * **Redirect​**. Provide the appropriate Status Code and URI
   * **Block**. Provide the Status Code, Content Type, and Response message
 
-|lab1-012|
-|lab1-013|
-|lab1-014|
-|lab1-015|
+|lab1_updated13|
+|lab1-updated14|
   
 10. When done configuring the endpoint, click **Apply**.
 11. Your protected endpoint is added to the table. The **Actions** column allows you to modify the endpoints. You can add additional new endpoints via the **Add Item** button.
@@ -242,11 +240,11 @@ For troubleshooting, look for error messages contained in the links under Log st
    :width: 800px
 .. |lab1-011| image:: images/lab1-011.png
    :width: 800px
-.. |lab1-012| image:: images/lab1-012.png
+.. |lab1_updated12| image:: images/lab1_updated12.png
    :width: 800px
-.. |lab1-013| image:: images/lab1-013.png
+.. |lab1_updated13| image:: images/lab1_updated13.png
    :width: 800px
-.. |lab1-014| image:: images/lab1-014.png
+.. |lab1_updated14| image:: images/lab1_updated14.png
    :width: 800px
 .. |lab1-015| image:: images/lab1-015.png
    :width: 800px
