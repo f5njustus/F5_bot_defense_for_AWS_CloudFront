@@ -65,7 +65,7 @@ Task 3: Add Protected Endpoints
   * **Block**. Provide the Status Code, Content Type, and Response message
 
 |lab1_updated13|
-|lab1-updated14|
+|lab1_updated14|
   
 10. When done configuring the endpoint, click **Apply**.
 11. Your protected endpoint is added to the table. The **Actions** column allows you to modify the endpoints. You can add additional new endpoints via the **Add Item** button.
