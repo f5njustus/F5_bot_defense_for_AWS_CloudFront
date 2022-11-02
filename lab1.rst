@@ -44,17 +44,18 @@ Task 3: Add Protected Endpoints
 |lab1-009|
 
 3. Enter a name and a description to the specific endpoint.
-
-|lab1-010|
-
 4. Specify the **Domain Matcher**. You can choose any domain or specify a specific host value.
 5. Specify the path to the endpoint (such as /login).
 6. Specify a **Query** parameter, if needed. If a **Query** value is defined, the Bot Defense service looks at the **Path** and **Query** values.
 7. Choose the **HTTP Methods** for which request will be analyzed by Bot Defense. Multiple methods can be selected.
 
-|lab1-011|
+|lab1-010|
 
 8. Select the type of client that will access this endpoint (such as web only).
+
+|lab1-011|
+
+
 
 |lab1-012|
 
