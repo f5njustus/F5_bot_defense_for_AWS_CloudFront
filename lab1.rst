@@ -2,7 +2,7 @@ Lab 1: Building the F5 Distributed Cloud Bot Defense for Amazon CloudFront CDN
 =========================================================================================
 
 Lab 1 will focus on the deployment and configuration of the F5 Distributed Cloud Bot Defense for Amazon CloudFront CDN.
-These steps will leverage the F5 Distributed Cloud console and resources delivered via AWS CloudFront CDN. You will begin
+These steps will leverage the F5 Distributed Cloud console and resources delivered via Amazon CloudFront CDN. You will begin
 this lab from the F5 Dsitributed Cloud main services dashboard.
 
 |lab1-001|
