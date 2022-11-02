@@ -38,6 +38,7 @@ Task 3: Add Protected Endpoints
 1. Click **Configure** to define your protected endpoints.
   
 |lab1-008|
+|lab1_updated18|
 
 2. Click **Add Item**.
 
@@ -84,7 +85,7 @@ Task 4: Define Continue Global Mitigation Action
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The **Header Name for Continue Mitigation Action** field is the header that is added to the request when the **Continue** mitigation action is selected and *Add A Header* was selected in the endpoint mitigation configuration screen.
 
-|lab1-017|
+|lab1_updated18|
 
 Task 5: Define Web Client JavaScript Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
