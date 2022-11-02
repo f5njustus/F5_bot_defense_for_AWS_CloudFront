@@ -38,7 +38,7 @@ Task 3: Add Protected Endpoints
 1. Click **Configure** to define your protected endpoints.
   
 |lab1-008|
-|lab1_updated18|
+|lab1_updated8|
 
 2. Click **Add Item**.
 
@@ -240,7 +240,7 @@ For troubleshooting, look for error messages contained in the links under Log st
    :width: 800px
 .. |lab1-007| image:: images/lab1-007.png
    :width: 800px
-.. |lab1-008| image:: images/lab1-008.png
+.. |lab1_updated8| image:: images/lab1_updated8.png
    :width: 800px
 .. |lab1-009| image:: images/lab1-009.png
    :width: 800px
