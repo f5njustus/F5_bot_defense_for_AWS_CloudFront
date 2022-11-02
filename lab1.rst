@@ -90,7 +90,7 @@ Task 5: Define Web Client JavaScript Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Add the **Web Client JavaScript Path**. You should select paths to HTML pages that end users are likely to visit before they browse to any protected endpoint. **Web Client JavaScript Settings** is relevant only if you have web protected endpoints.
 
-|lab1-018|
+|lab1_updated18|
 
 2. For the **Web Client JavaScript Insertion Settings** field, select to Specify the JS Insertion Rules or to Manually insert the JS tags (Advanced Fields needs to be turned on to view this option. Follow instruction in Advanced Features Settings).
 3. **JS Location** - Choose the location where to insert the JS in the code:
