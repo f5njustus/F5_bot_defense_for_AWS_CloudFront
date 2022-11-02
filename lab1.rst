@@ -259,7 +259,7 @@ For troubleshooting, look for error messages contained in the links under Log st
    :width: 800px
 .. |lab1-017| image:: images/lab1-017.png
    :width: 800px
-.. |lab1-018| image:: images/lab1-018.png
+.. |lab1_updated18| image:: images/lab1_updated18.png
    :width: 800px
 .. |lab1-019| image:: images/lab1-019.png
    :width: 800px
