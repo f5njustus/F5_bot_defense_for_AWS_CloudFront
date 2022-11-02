@@ -122,10 +122,18 @@ Task 5: Define Web Client JavaScript Settings
 
 |lab1-021|
 |lab1-022|
+
+Task 6:Define Mobile SDK Settings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. If you added mobile endpoints to your configuration, select Enable Mobile SDK.
+2. If you selected Web and Mobile as your client type during endpoint configuration, add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types.
+   a. At the top of the configuration, enable Advanced.
+   b. In the Mobile Request Identifier field, Click Add Item.
+   c. Enter a name and the corresponding value.
   
 11. Click **Save & Exit** to save your protected application configuration.
 
-Task 6: Download Config File and AWS Installer Tool
+Task 7: Download Config File and AWS Installer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. In the Actions column of the table, click the 3 dots (…) on your application. Download both the config file and the AWS installer.
@@ -133,7 +141,7 @@ Task 6: Download Config File and AWS Installer Tool
 |lab1-026|
 
 
-Task 7: Advanced Fields:Trusted Client Rules (Allow List)
+Task 8: Advanced Fields:Trusted Client Rules (Allow List)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Trusted Client Rules adds headers and IP addresses to an Allow List. Pages with a specific IP or containing specific headers are allowed to proceed to the origin. No logging is done on pages that are on the allow list.
@@ -145,14 +153,14 @@ Multiple headers can be added to the table and saved. IP Addresses need to be ad
   * For *IP Prefix*, enter a string.
   * For *Header*, enter a Name and value.
 
-Task 8: Advanced Fields:Time out and Body Sample Size Limit
+Task 9: Advanced Fields:Time out and Body Sample Size Limit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   * **Timeout** - defines the max time to send the requests to the Bot Defense Engine for analysis. If the timeout is exceeded, the request will continue to the origin (this is tracked in AWS CloudWatch). By default, the field is set to 700ms based on performance efficiency.
   * **Body Sample Size** - allows for additional request body data (other than F5 telemetry) to be sent for analysis. By default, this is set to 0 MB. Max size limit is 1MB.
 
 
-Task 11: AWS Console
+Task 10: AWS Console
 ~~~~~~~~~~~~~~~~~~~~
 
 1. Login to AWS Console home page.
@@ -189,6 +197,12 @@ The Log group name starts with */aws/lambda/us-east-1.serverlessrepo-f5Connector
 The logs of lambda function can be found in the region closest to the location where the function executed.
 
 For troubleshooting, look for error messages contained in the links under Log steams.
+
+Task 10: View Traffic
+~~~~~~~~~~~~~~~~~~~~~
+
+After your configuration has been added, navigate to **Monitor**. You can view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests.
+This tool can help analyze thousands or millions of requests.
 
 **End of Lab:**  This concludes the Lab, feel free to review and test the configuration.
 
@@ -249,8 +263,3 @@ For troubleshooting, look for error messages contained in the links under Log st
 .. |labend| image:: images/labend.png
    :width: 800px
 
-Task 10: View Traffic
-~~~~~~~~~~~~~~~~~~~~~
-
-After your configuration has been added, navigate to **Monitor**. You can view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests.
-This tool can help analyze thousands or millions of requests.
