@@ -51,7 +51,7 @@ Task 3: Add Protected Endpoints
 
 |lab1-010|
 
-8. Select the type of client that will access this endpoint (such as web only).
+8. Select the type of client that will access this endpoint (Web Client, Mobile Client, or Web and Mobile Client).
 
 |lab1-011|
 
@@ -63,6 +63,9 @@ Task 3: Add Protected Endpoints
   * **Continue** (request continues to origin). You can choose to add a header to requests going to the origin for reporting purposes. Header definition is on next screen.
   * **Redirect​**. Provide the appropriate Status Code and URI
   * **Block**. Provide the Status Code, Content Type, and Response message
+  
+  Note: Mobile clients only allow Continue and Block. If you select Web and Mobile Client, you can select mitigation actions for each client type.
+  Note2: If you select Web and Mobile Client, you will need to enter a MObile Request Identifier Header, when enabling Mobile SDK Settings later in the configuration.
 
 |lab1_updated13|
 |lab1_updated14|
