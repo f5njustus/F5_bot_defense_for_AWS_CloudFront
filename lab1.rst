@@ -132,35 +132,8 @@ Task 6: Download Config File and AWS Installer Tool
 
 |lab1-026|
 
-Task 7: Advanced Fields: Manual JS Insertion
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Manual Javascript Insertion
----------------------------
-
-If you require Manual JavaScript Insertion, add the following tags to one of the recommended locations:
-
-  * Immediately After <Head>
-  * Immediately After </title>
-  * Before <script> (first script tag on the page).
-
-Matcher Config JavaScript
-------------------------
-
-.. code-block:: html
-
-    <script type='text/javascript' src='INJECTION_PATH?matcher'></script>​
-
-I/O Hook JavaScript
--------------------
-
-.. code-block:: html
-
-    <script type='text/javascript' src='INJECTION_PATH?cache'></script>​
-
-Replace *INJECTION PATH* with the value you specified for Web Client JavaScript Path.
-
-Task 8: Advanced Fields:Trusted Client Rules (Allow List)
+Task 7: Advanced Fields:Trusted Client Rules (Allow List)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Trusted Client Rules adds headers and IP addresses to an Allow List. Pages with a specific IP or containing specific headers are allowed to proceed to the origin. No logging is done on pages that are on the allow list.
@@ -172,17 +145,12 @@ Multiple headers can be added to the table and saved. IP Addresses need to be ad
   * For *IP Prefix*, enter a string.
   * For *Header*, enter a Name and value.
 
-Task 9: Advanced Fields:Time out and Body Sample Size Limit
+Task 8: Advanced Fields:Time out and Body Sample Size Limit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   * **Timeout** - defines the max time to send the requests to the Bot Defense Engine for analysis. If the timeout is exceeded, the request will continue to the origin (this is tracked in AWS CloudWatch). By default, the field is set to 700ms based on performance efficiency.
   * **Body Sample Size** - allows for additional request body data (other than F5 telemetry) to be sent for analysis. By default, this is set to 0 MB. Max size limit is 1MB.
 
-Task 10: View Traffic
-~~~~~~~~~~~~~~~~~~~~~
-
-After your configuration has been added, navigate to **Monitor**. You can view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests.
-This tool can help analyze thousands or millions of requests.
 
 Task 11: AWS Console
 ~~~~~~~~~~~~~~~~~~~~
@@ -280,3 +248,9 @@ For troubleshooting, look for error messages contained in the links under Log st
    :width: 800px
 .. |labend| image:: images/labend.png
    :width: 800px
+
+Task 10: View Traffic
+~~~~~~~~~~~~~~~~~~~~~
+
+After your configuration has been added, navigate to **Monitor**. You can view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests.
+This tool can help analyze thousands or millions of requests.
