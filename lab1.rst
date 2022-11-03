@@ -154,11 +154,17 @@ It is better to be selective with **JS Insertions** to save money rather than ad
 Task 6:Define Mobile SDK Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. If you added mobile endpoints to your configuration, select Enable Mobile SDK.
+
+|lab1-023|
+
 2. If you selected Web and Mobile as your client type during endpoint configuration, add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types.
 
    a. At the top of the configuration, toggle on Advanced Settings.
    [insert]
    b. In the Mobile Request Identifier field, Click Add Item.
+   
+   |lab1-024|
+   
    c. Enter a name and the corresponding value.
   
 
