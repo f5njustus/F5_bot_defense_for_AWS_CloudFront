@@ -158,6 +158,7 @@ Task 6:Define Mobile SDK Settings
 |lab1-023|
 
 2. If you selected Web and Mobile as your client type during endpoint configuration, you will need to add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types. At the top of the configuration, toggle on Advanced Settings.
+
 |lab1_adv|
    
    a. In the Mobile Request Identifier field, Click Add Item.
@@ -166,7 +167,7 @@ Task 6:Define Mobile SDK Settings
    
    b. Enter a name and the corresponding value.
    
-   |lab1-025|
+   |lab1_updated25|
 
 Task 7:Trusted Client Rules (Allow List)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -300,7 +301,7 @@ This tool can help analyze thousands or millions of requests.
    :width: 800px
 .. |lab1-024| image:: images/lab1-024.png
    :width: 800px
-.. |lab1-025| image:: images/lab1-025.png
+.. |lab1_updated25| image:: images/lab1_updated25.png
    :width: 800px
 .. |lab1-026| image:: images/lab1-026.png
    :width: 800px
