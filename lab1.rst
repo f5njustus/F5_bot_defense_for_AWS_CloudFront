@@ -89,17 +89,21 @@ The **Header Name for Continue Mitigation Action** field is the header that is a
 
 Task 5: Define Web Client JavaScript Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Add the **Web Client JavaScript Path**. You should select paths to HTML pages that end users are likely to visit before they browse to any protected endpoint. **Web Client JavaScript Settings** is relevant only if you have web protected endpoints.
+1. Add the **Web Client JavaScript Path**. 
+
+Important Note:**Web Client JavaScript Settings** is relevant only if you have web protected endpoints. If you are only protecting mobile app endpoints, do not enter insertion or exlusion paths. Skip to Mobile SDK settings. 
 
 |lab1_updated18|
 
-2. For the **Web Client JavaScript Insertion Settings** field, select to Specify the JS Insertion Rules or to Manually insert the JS tags (Advanced Fields needs to be turned on to view this option. Follow instruction in Advanced Features Settings).
+2. For the **Web Client JavaScript Insertion Settings** field, select to Specify the JS Insertion Rules or to Manually insert the JS tags (Advanced Fields needs to be turned on to view Manual Insert option).
 3. **JS Location** - Choose the location where to insert the JS in the code:
   * Just After <head> tag.
   * Just After </title> tag.
   * Right Before <script> tag.
 4. Use **JS Insertion Settings** to choose which pages to insert the JavaScript into. Click **Configure**.
 5. Click **Add Item** to define your **JavaScript Insertion** paths.
+
+Note:You should select paths to HTML pages that end users are likely to visit before they browse to any protected endpoint. 
 
 |lab1-019|
 |lab1-020|
