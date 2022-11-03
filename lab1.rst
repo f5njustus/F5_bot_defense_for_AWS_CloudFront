@@ -37,7 +37,6 @@ Task 3: Add Protected Endpoints
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Click **Configure** to define your protected endpoints.
   
-|lab1-008|
 |lab1_updated8|
 
 2. Click **Add Item**.
