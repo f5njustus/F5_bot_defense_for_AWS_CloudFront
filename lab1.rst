@@ -157,16 +157,14 @@ Task 6:Define Mobile SDK Settings
 
 |lab1-023|
 
-2. If you selected Web and Mobile as your client type during endpoint configuration, add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types.
-
-   a. At the top of the configuration, toggle on Advanced Settings.
-    |lab1_adv|
+2. If you selected Web and Mobile as your client type during endpoint configuration, you will need to add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types. At the top of the configuration, toggle on Advanced Settings.
+|lab1_adv|
    
-   b. In the Mobile Request Identifier field, Click Add Item.
+   a. In the Mobile Request Identifier field, Click Add Item.
    
    |lab1-024|
    
-   c. Enter a name and the corresponding value.
+   b. Enter a name and the corresponding value.
    
    |lab1-025|
 
@@ -175,17 +173,17 @@ Task 7:Trusted Client Rules (Allow List)
 
 Trusted Client Rules add headers and IP addresses to an Allow List. Pages that have a specific IP or that contain specific headers are allowed to proceed to the origin and are not sent to the Bot Defense engine for evaluation. No logging is done on pages that are on the Allow List.
 
-1. Trusted Client Rules is an Advanced Setting. This field should already be displayed. 
+1. Trusted Client Rules is an Advanced Setting. Navigate to the top of the configuration to toggle on Advanced Settings, if you have not already done so. 
 2. In the **Trusted Client Rules** field, click **Configure**.
 
-|lab1-027|
+|lab1_updated27|
 
 2. Click **Add Item**.
 3. Enter a Name and specify the **Client Identifier**. Choose either *IP Address* or *HTTP Header*.
   * For *IP Prefix*, enter a string.
   * For *Header*, enter a Name and value.
   
-|lab1-028|
+|lab1_updated28|
   
 Multiple headers can be added to the table and saved. IP Addresses need to be added individually. 
 
