@@ -65,10 +65,10 @@ Task 3: Add Protected Endpoints
   * **Block**. Provide the Status Code, Content Type, and Response message
   
   Note: Mobile clients only allow Continue and Block. If you select Web and Mobile Client, you can select mitigation actions for each client type.
- 
+  |lab1_updated13|
   Note2: If you select Web and Mobile Client, you will need to enter a Mobile Request Identifier Header, when enabling Mobile SDK Settings later in the configuration.
 
-|lab1_updated13|
+
 |lab1_updated14|
   
 10. When done configuring the endpoint, click **Apply**.
