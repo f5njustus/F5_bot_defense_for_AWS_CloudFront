@@ -160,7 +160,7 @@ Task 6:Define Mobile SDK Settings
 2. If you selected Web and Mobile as your client type during endpoint configuration, add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types.
 
    a. At the top of the configuration, toggle on Advanced Settings.
-   [insert]
+    |lab1_adv|
    
    b. In the Mobile Request Identifier field, Click Add Item.
    
@@ -170,7 +170,7 @@ Task 6:Define Mobile SDK Settings
    
    |lab1-025|
 
-Task 7: Advanced Fields:Trusted Client Rules (Allow List)
+Task 7:Trusted Client Rules (Allow List)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Trusted Client Rules add headers and IP addresses to an Allow List. Pages that have a specific IP or that contain specific headers are allowed to proceed to the origin and are not sent to the Bot Defense engine for evaluation. No logging is done on pages that are on the Allow List.
@@ -178,10 +178,14 @@ Trusted Client Rules add headers and IP addresses to an Allow List. Pages that h
 1. Trusted Client Rules is an Advanced Setting. This field should already be displayed. 
 2. In the **Trusted Client Rules** field, click **Configure**.
 
+|lab1-027|
+
 2. Click **Add Item**.
 3. Enter a Name and specify the **Client Identifier**. Choose either *IP Address* or *HTTP Header*.
   * For *IP Prefix*, enter a string.
   * For *Header*, enter a Name and value.
+  
+|lab1-028|
   
 Multiple headers can be added to the table and saved. IP Addresses need to be added individually. 
 
@@ -301,6 +305,12 @@ This tool can help analyze thousands or millions of requests.
 .. |lab1-025| image:: images/lab1-025.png
    :width: 800px
 .. |lab1-026| image:: images/lab1-026.png
+   :width: 800px
+.. |lab1_updated27| image:: images/lab1_updated27.png
+   :width: 800px
+.. |lab1_updated28| image:: images/lab1_updated28.png
+   :width: 800px
+.. |lab1_adv| image:: images/lab1_adv.png
    :width: 800px
 .. |labend| image:: images/labend.png
    :width: 800px
