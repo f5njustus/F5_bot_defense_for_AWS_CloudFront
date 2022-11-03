@@ -116,11 +116,11 @@ Global wildcards (such as /*, and *) are **not recommended** for Insertion Paths
 
 .. code-block:: text
 
-    Recommended examples:
+    Recommended Insertion Path examples:
       /index.htm
       /login/*
      
-    Not Recommended examples:
+    Not Recommended Insertion Path examples:
      /*
      *
 
