@@ -246,7 +246,7 @@ This tool can help analyze thousands or millions of requests.
    :width: 800px
 .. |lab1-015| image:: images/lab1-015.png
    :width: 800px
-.. |lab1-016| image:: images/lab1-016.png
+.. |lab1_updated16| image:: images/lab1_updated16.png
    :width: 800px
 .. |lab1-017| image:: images/lab1-017.png
    :width: 800px
