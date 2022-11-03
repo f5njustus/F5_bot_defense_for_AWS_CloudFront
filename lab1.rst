@@ -65,7 +65,9 @@ Task 3: Add Protected Endpoints
   * **Block**. Provide the Status Code, Content Type, and Response message
   
   Note: Mobile clients only allow Continue and Block. If you select Web and Mobile Client, you can select mitigation actions for each client type.
-  |lab1_updated13|
+ 
+ |lab1_updated13|
+  
   Note2: If you select Web and Mobile Client, you will need to enter a Mobile Request Identifier Header, when enabling Mobile SDK Settings later in the configuration.
 
 
@@ -102,9 +104,10 @@ Important Note:**Web Client JavaScript Settings** is relevant only if you have w
 4. Use **JS Insertion Settings** to choose which pages to insert the JavaScript into. Click **Configure**.
 5. Click **Add Item** to define your **JavaScript Insertion** paths.
 
+|lab1-019|
+
 Note:You should select paths to HTML pages that end users are likely to visit before they browse to any protected endpoint. 
 
-|lab1-019|
 |lab1-020|
 
 6. Define a **Name** and a **Path**. It is recommended that you use wildcards to select JS insertions paths for HTML pages (such as /index.htm and /login/\*, and other pages that end users are likely to arrive on). Global wildcards (such as /\*, and \*) are **not recommended** for Insertion Paths.
