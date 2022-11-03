@@ -190,8 +190,9 @@ Trusted Client Rules add headers and IP addresses to an Allow List. Pages that h
 
 Task 8: Save Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Your configuration is now complete!
-11. Click **Save & Exit** to save your protected application configuration.
+Your configuration is now complete! 
+
+1. Click **Save & Exit** to save your protected application configuration.
 
 |lab1_updated27|
 
