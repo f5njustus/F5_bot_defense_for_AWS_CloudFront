@@ -88,7 +88,7 @@ The **Header Name for Continue Mitigation Action** field is the header that is a
 
 Task 5: Define Web Client JavaScript Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Add the **Web Client JavaScript Path**. 
+1. Add the **Web Client JavaScript Path**.  Web client will fetch F5 Client JavaScript from his path. This path must not conflict with any other website/application paths. 
 
 Important Note:**Web Client JavaScript Settings** is relevant only if you have web protected endpoints. If you are only protecting mobile app endpoints, do not enter insertion or exclusion paths. Skip to Mobile SDK settings. 
 
