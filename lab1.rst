@@ -76,7 +76,7 @@ Task 3: Add Protected Endpoints
 10. When done configuring the endpoint, click **Apply**.
 11. Your protected endpoint is added to the table. The **Actions** column allows you to modify the endpoints. You can add additional new endpoints via the **Add Item** button.
 
-|lab1-016|
+|lab1_updated16|
 
 12. To continue, click **Apply** at the bottom of the page.
 
