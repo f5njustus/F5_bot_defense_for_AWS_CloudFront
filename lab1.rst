@@ -184,70 +184,30 @@ Trusted Client Rules add headers and IP addresses to an Allow List. Pages that h
   * For *IP Prefix*, enter a string.
   * For *Header*, enter a Name and value.
   
-|lab1_updated28|
+  Note: Multiple headers can be added to the table and saved. IP Addresses need to be added individually. 
   
-Multiple headers can be added to the table and saved. IP Addresses need to be added individually. 
+|lab1_updated28|
 
-
+Task 8: Save Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Your configuration is now complete!
 11. Click **Save & Exit** to save your protected application configuration.
 
+|lab1_updated27|
 
-Task 8: Download Config File and AWS Installer Tool
+Task 9: Download Config File and AWS Installer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. In the Actions column of the table, click the 3 dots (…) on your application. Download both the config file and the AWS installer.
 
 |lab1-026|
 
+Next you will proceed to your AWS Console to deploy the connector and upload your config file. Once configuration is installed, you can navigate to Monitor to view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests. 
 
 
-Task 9: DEMO
-
-
-Task 10: AWS Console
+Task 10: DEMO
 ~~~~~~~~~~~~~~~~~~~~
 
-1. Login to AWS Console home page.
-2. Select AWS Region Northern Virginia (US-EAST-1).
-3. Use the search to find Serverless Application Repository and click it.
-4. Click Available Applications.
-5. Click Private Applications.
-6. Click the f5ConnectorCloudFront tile.
-  * If there are too many tiles here, you can search for f5.
-  * If the F5 connector tile does not appear, validate the AWS Account number provided to F5.
-7. Click Deploy to install the F5 Connector for CloudFront.
-
-Deploying the F5 Connector creates a new Lambda Application in your AWS Account. AWS sets the name of the new Lambda Application to start with *serverlessrepo-*.
-
-The deployment can take some time. It is complete when you see the **f5ConnectorCloudFront** of type **Lambda Function**.
-
-You can click on the name **f5ConnectorCloudFront** to review contents of the installed Lambda Function.
-
-Configuration of the F5 Connector in AWS is best done via the F5 CLI tool. It is recommended to use the AWS CloudShell.
-1. After starting AWS CloudShell, click **Actions** and **Upload file**.
-2. Upload the files you downloaded from the F5 XC Console, **config.json** and \*f5tool.
-3. Run bash *f5tool -install config.json*. Installation can take up to 5 minutes.
-
-The installation tool saves the previous configuration of each CloudFront Distribution in a file. You can use the F5 tool to restore a saved Distribution config (thus removing F5 Bot Defense).
-
-.. note:: 
-   Your F5 XC Bot Defense configuration, such as protected endpoints, is sensitive security info and is stored in AWS Secrets Manager. You should delete config.json after CLI installation.
-
-Task 11: AWS CloudWatch
-~~~~~~~~~~~~~~~~~~~~~~~
-
-AWS CloudWatch contains logs for Lambda function deployed by **f5ConnectorCloudFront** serverless application.
-The Log group name starts with */aws/lambda/us-east-1.serverlessrepo-f5ConnectorCl-f5ConnectorCloudFront-*.
-The logs of lambda function can be found in the region closest to the location where the function executed.
-
-For troubleshooting, look for error messages contained in the links under Log steams.
-
-Task 10: View Traffic
-~~~~~~~~~~~~~~~~~~~~~
-
-After your configuration has been added, navigate to **Monitor**. You can view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests.
-This tool can help analyze thousands or millions of requests.
 
 **End of Lab:**  This concludes the Lab, feel free to review and test the configuration.
 
