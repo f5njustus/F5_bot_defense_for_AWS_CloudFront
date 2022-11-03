@@ -90,7 +90,7 @@ Task 5: Define Web Client JavaScript Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Add the **Web Client JavaScript Path**. 
 
-Important Note:**Web Client JavaScript Settings** is relevant only if you have web protected endpoints. If you are only protecting mobile app endpoints, do not enter insertion or exlusion paths. Skip to Mobile SDK settings. 
+Important Note:**Web Client JavaScript Settings** is relevant only if you have web protected endpoints. If you are only protecting mobile app endpoints, do not enter insertion or exclusion paths. Skip to Mobile SDK settings. 
 
 |lab1_updated18|
 
