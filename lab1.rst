@@ -109,15 +109,22 @@ Important Note:**Web Client JavaScript Settings** is relevant only if you have w
 Note: You should select paths to HTML pages that end users are likely to visit before they browse to any protected endpoint. 
 
 6. Define a **Name** and a **Path**. 
-Note: It is recommended that you use wildcards to select JS insertions paths for HTML pages (such as /index.htm and /login/\*, and other pages that end users are likely to arrive on). Global wildcards (such as /\*, and \*) are **not recommended** for Insertion Paths.
+
+.. code-block:: text
+Note: It is recommended that you use wildcards to select JS insertions paths for HTML pages (such as /index.htm and /login/\*, and other pages that end users are likely to arrive on). 
+Global wildcards (such as /\*, and \*) are **not recommended** for Insertion Paths.
 
 |lab1-020|
 
 7. Click **Apply**. The **JS Insertion Path** is added to the table. Click **Add Item** to add additional JS Insertion Paths.
 8. Once all JS Insertions Paths are added, click **Apply**.
-9. You can choose specific web pages to exclude. In the **Exclude Paths** field, click **Add Item**. It is better to be selective with **JS Insertions** to save money rather than adding a long list of exclusions. A small cost is incurred per inclusion request for AWS lambda to check for exclusions.
+9. You can choose specific web pages to exclude. In the **Exclude Paths** field, click **Add Item**. 
+
+|lab1-021|
 
 .. code-block:: text
+
+Best Practice: 
 
     Include examples:
       /login/*
@@ -125,10 +132,13 @@ Note: It is recommended that you use wildcards to select JS insertions paths for
     Exclude examples:
       /login/images
       /catalog/soldout/*
+      
+It is better to be selective with **JS Insertions** to save money rather than adding a long list of exclusions. A small cost is incurred per inclusion request for AWS lambda to check for exclusions.
+
 
 10. Specify a **Name**, **Domain Matcher**, and **Path** to exclude. You can choose from Prefix, Path, or Regex for **Path Match**. Click **Apply**. This adds an item to the table. You can add more excluded pages to the table.
 
-|lab1-021|
+
 |lab1-022|
 
 Task 6:Define Mobile SDK Settings
