@@ -161,12 +161,14 @@ Task 6:Define Mobile SDK Settings
 
    a. At the top of the configuration, toggle on Advanced Settings.
    [insert]
+   
    b. In the Mobile Request Identifier field, Click Add Item.
    
    |lab1-024|
    
    c. Enter a name and the corresponding value.
-  
+   
+   |lab1-025|
 
 Task 7: Advanced Fields:Trusted Client Rules (Allow List)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
