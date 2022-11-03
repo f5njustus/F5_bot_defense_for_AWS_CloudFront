@@ -155,13 +155,36 @@ Task 6:Define Mobile SDK Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. If you added mobile endpoints to your configuration, select Enable Mobile SDK.
 2. If you selected Web and Mobile as your client type during endpoint configuration, add a mobile header to distinguish the endpoints. This is not required for Web-Only or Mobile-Only client types.
+
    a. At the top of the configuration, enable Advanced.
    b. In the Mobile Request Identifier field, Click Add Item.
    c. Enter a name and the corresponding value.
   
+
+Task 7: Advanced Fields:Trusted Client Rules (Allow List)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Trusted Client Rules add headers and IP addresses to an Allow List. Pages that have a specific IP or that contain specific headers are allowed to proceed to the origin and are not sent to the Bot Defense engine for evaluation. No logging is done on pages that are on the Allow List.
+
+1. Trusted Client Rules is an Advanced Setting. Navigate to the top of the configuration to toggle on Advanced Settings
+
+ 
+
+1. In the **Trusted Client Rules** field, click **Configure**.
+2. Click **Add Item**.
+
+Multiple headers can be added to the table and saved. IP Addresses need to be added individually. 
+
+3. Enter a Name and specify the **Client Identifier**. Choose either *IP Address* or *HTTP Header*.
+  * For *IP Prefix*, enter a string.
+  * For *Header*, enter a Name and value.
+  
+
+Your configuration is now complete!
 11. Click **Save & Exit** to save your protected application configuration.
 
-Task 7: Download Config File and AWS Installer Tool
+
+Task 8: Download Config File and AWS Installer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. In the Actions column of the table, click the 3 dots (…) on your application. Download both the config file and the AWS installer.
@@ -169,17 +192,7 @@ Task 7: Download Config File and AWS Installer Tool
 |lab1-026|
 
 
-Task 8: Advanced Fields:Trusted Client Rules (Allow List)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Trusted Client Rules adds headers and IP addresses to an Allow List. Pages with a specific IP or containing specific headers are allowed to proceed to the origin. No logging is done on pages that are on the allow list.
-Multiple headers can be added to the table and saved. IP Addresses need to be added individually.  
-
-1. In the **Trusted Client Rules** field, click **Configure**.
-2. Click **Add Item**.
-3. Enter a Name and specify the **Client Identifier**. Choose either *IP Address* or *HTTP Header*.
-  * For *IP Prefix*, enter a string.
-  * For *Header*, enter a Name and value.
 
 Task 9: Advanced Fields:Time out and Body Sample Size Limit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
