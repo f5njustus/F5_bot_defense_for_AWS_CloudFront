@@ -203,7 +203,12 @@ Task 9: Download Config File and AWS Installer Tool
 
 |lab1-026|
 
-Next you will proceed to your AWS Console to deploy the connector and upload your config file. Once configuration is installed, you can navigate to Monitor to view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests. 
+Summary of next steps shown in the demo video: 
+
+Next you will proceed to your AWS Console to deploy the connector and upload your config file. Once the configuration is installed on AWS, you can navigate to Monitor within the Distributed Cloud Bot Defense tile to view all traffic that the F5 XC Defense Engine has recorded, for valid and invalid requests. 
+
+|lab1_traffic|
+
 
 
 Task 10: DEMO
@@ -269,6 +274,8 @@ Task 10: DEMO
 .. |lab1_updated27| image:: images/lab1_updated27.png
    :width: 800px
 .. |lab1_updated28| image:: images/lab1_updated28.png
+   :width: 800px
+.. |lab1_traffic| image:: images/lab1_traffic.png
    :width: 800px
 .. |lab1_adv| image:: images/lab1_adv.png
    :width: 800px
