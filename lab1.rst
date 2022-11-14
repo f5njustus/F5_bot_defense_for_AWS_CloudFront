@@ -112,8 +112,6 @@ Note: You should select paths to HTML pages that end users are likely to visit b
 
 It is recommended that you use wildcards to select JS insertions paths for HTML pages (such as /index.htm and /login/*, and other pages that end users are likely to arrive on). 
 
-Global wildcards (such as /*, and *) are **not recommended** for Insertion Paths.
-
 .. code-block:: text
 
     Recommended Insertion Path examples:
