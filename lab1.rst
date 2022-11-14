@@ -81,16 +81,9 @@ Task 3: Add Protected Endpoints
 12. To continue, click **Apply** at the bottom of the page.
 
 
-
-Task 4: Define Continue Global Mitigation Action
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The **Header Name for Continue Mitigation Action** field is the header that is added to the request when the **Continue** mitigation action is selected and *Add A Header* was selected in the endpoint mitigation configuration screen.
-
-|lab1_updated18|
-
-Task 5: Define Web Client JavaScript Settings
+Task 4: Define Web Client JavaScript Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Add the **Web Client JavaScript Path**.  Web client will fetch F5 Client JavaScript from his path. This path must not conflict with any other website/application paths. 
+1. Skip ahead to Add the **Web Client JavaScript Path**.  Web client will fetch F5 Client JavaScript from his path. This path must not conflict with any other website/application paths. 
 
 Important Note:**Web Client JavaScript Settings** is relevant only if you have web protected endpoints. If you are only protecting mobile app endpoints, do not enter insertion or exclusion paths. Skip to Mobile SDK settings. 
 
@@ -145,6 +138,16 @@ It is better to be selective with **JS Insertions** to save money rather than ad
 
 
 |lab1-022|
+
+Before we continue, we are going to save the entire configuration. Navigate to the purple button on the bottom right hand side of the page, named **Save and Exit**. You DO NOT want to click on close configuration - THIS WILL NOT SAVE YOUR CONFIGURATION. 
+
+|lab1_save_config|
+
+Task 5: Define Continue Global Mitigation Action
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The **Header Name for Continue Mitigation Action** field is the header that is added to the request when the **Continue** mitigation action is selected and *Add A Header* was selected in the endpoint mitigation configuration screen.
+
+|lab1_updated18|
 
 Task 6:Define Mobile SDK Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -257,6 +260,8 @@ Task 10: DEMO
 .. |lab1-021| image:: images/lab1-021.png
    :width: 800px
 .. |lab1-022| image:: images/lab1-022.png
+   :width: 800px
+.. |lab1_save_config| image:: images/lab1_save_config.png
    :width: 800px
 .. |lab1-023| image:: images/lab1-023.png
    :width: 800px
