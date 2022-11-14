@@ -26,11 +26,9 @@ In this lab, we will be demonstrating how to configure the connector for Amazon 
 While the majority of the lab will be in the Distibuted Cloud (XC) Console, there will be a short demo 
 video on finding and deploying the connector, and uploading the configuration files recently created in 
 the XC Console. 
-                                                                                              
-* **F5 Distributed Cloud Console**                                                           
-* **Amazon CloudFront/ AWS Console**                                             
-
- |intro_overview|                                                                                   
+                                                                                                                                        
+ |intro_overview| 
+ 
 +----------------------------------------------------------------------------------------------+
 
 Task 2: F5 Distributed Cloud Console Login
