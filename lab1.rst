@@ -141,15 +141,15 @@ It is better to be selective with **JS Insertions** to save money rather than ad
 
 Task 5: Save Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Before we continue, we are going to save the entire configuration. Navigate to the purple button on the bottom right hand side of the page, named **Save and Exit**. You DO NOT want to click on close configuration - THIS WILL NOT SAVE YOUR CONFIGURATION. 
+Before we continue, we are going to save the entire configuration. Navigate to the purple button on the bottom right hand side of the page, named **Save and Exit**. You DO NOT want to click on Cancel and Exit configuration - THIS WILL NOT SAVE YOUR CONFIGURATION. 
 
 |lab1_save_config|
 
-You will see that your application has been added to the table. To edit the configuration click on the '. . .'. One of the actions will be to modify the configuration. 
+You will see that your application has been added to the table. To edit the configuration click on the '. . .'. One of the actions will be to **Manage Configuration**. 
 
 |lab1-026|
 
-Here you will be able to review your final configuration. Next, click Edit configuration on the top right hand corner. 
+Here you will be able to review your configuration. Next, click Edit configuration on the top right hand corner. 
 
 |lab1_edit|
 
@@ -196,7 +196,7 @@ Trusted Client Rules add headers and IP addresses to an Allow List. Pages that h
   
 |lab1_updated28|
 
-Task 8: Save Configuration
+Task 9: Save Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Your configuration is now complete! 
 
@@ -204,7 +204,7 @@ Your configuration is now complete!
 
 |lab1_updated27|
 
-Task 9: Download Config File and AWS Installer Tool
+Task 10: Download Config File and AWS Installer Tool
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. In the Actions column of the table, click the 3 dots (…) on your application. Download both the config file and the AWS installer.
