@@ -13,6 +13,10 @@ Task 1: Create a new Bot Defense application for AWS CloudFront
 
 |lab1-002|
 
+Before we get started, please take not of your namespace, in the event you need any further support throughout this lab. The Distributed Cloud services allows you to manage permissions via namespaces. For example, you can have a namespace for testing and another one for production.
+
+|lab1_namesp|
+
 2. Click **Add Application** at the top-left of the page. If no applications exist, a prompt appears about adding a protected application.
 
 |lab1-003|
@@ -227,7 +231,10 @@ Task 10: DEMO
 
 |labend|
 
+
 .. |lab1-001| image:: images/lab1-001.png
+   :width: 800px
+.. |lab1_namesp| image:: images/lab1_namesp.png
    :width: 800px
 .. |lab1-002| image:: images/lab1-002.png
    :width: 800px
