@@ -17,17 +17,15 @@ Task 1: Lab Environment
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------------------------------+
-| The image below represents an overview of the lab environment. F5 Distributed Cloud Services |
-|                                                                                              |
-| will be configured as a SaaS Edge delivery and security service tier to a publicly hosted web|
-|                                                                                              |
-| application. The key elements lab attendees will interact with are as follows:               |
+| The image below represents an overview of the Distributed Cloud Bot Defense connector integration 
+| methods, where 
+|
+| |intro_arch|  
 |                                                                                              |
 | * **F5 Distributed Cloud Console**                                                           |
-| * **F5 Distributed Cloud Global Network / Application Delivery Network (ADN)**               |
-| * **Publicly hosted application (Public Cloud)**                                             |
+| * **Amazon CloudFront/ AWS Console**                                             |
 +----------------------------------------------------------------------------------------------+
-| |intro001|                                                                                   |
+| |intro_overview|                                                                                   |
 +----------------------------------------------------------------------------------------------+
 
 Task 2: F5 Distributed Cloud Console Login
@@ -81,7 +79,9 @@ step below to access the F5 Distributed Cloud Lab Tenant.
 | |labbgn|                                                                                     |
 +----------------------------------------------------------------------------------------------+
 
-.. |intro001| image:: images/intro-001.png
+.. |intro_arch| image:: images/intro_arch.png
+   :width: 800px
+.. |intro_overview| image:: images/intro_overview.png
    :width: 800px
 .. |intro002| image:: images/intro-002.png
    :width: 800px
