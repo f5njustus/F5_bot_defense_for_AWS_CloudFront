@@ -139,11 +139,17 @@ It is better to be selective with **JS Insertions** to save money rather than ad
 
 |lab1-022|
 
+Task 5: Save Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Before we continue, we are going to save the entire configuration. Navigate to the purple button on the bottom right hand side of the page, named **Save and Exit**. You DO NOT want to click on close configuration - THIS WILL NOT SAVE YOUR CONFIGURATION. 
 
 |lab1_save_config|
 
-Task 5: Define Continue Global Mitigation Action
+You will see that your application has been added to the table. To edit the configuration click on the '. . .'. One of the actions will be to modify the configuration. Here you will be able to review your final configuration. Next, click Edit configuration on the top right hand corner. 
+
+|lab1_edit|
+
+Task 6: Define Continue Global Mitigation Action
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The **Header Name for Continue Mitigation Action** field is the header that is added to the request when the **Continue** mitigation action is selected and *Add A Header* was selected in the endpoint mitigation configuration screen.
 
@@ -262,6 +268,8 @@ Task 10: DEMO
 .. |lab1-022| image:: images/lab1-022.png
    :width: 800px
 .. |lab1_save_config| image:: images/lab1_save_config.png
+   :width: 800px
+.. |lab1_edit| image:: images/lab1_edit.png
    :width: 800px
 .. |lab1-023| image:: images/lab1-023.png
    :width: 800px
