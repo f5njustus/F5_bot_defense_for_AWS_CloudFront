@@ -118,9 +118,6 @@ It is recommended that you use wildcards to select JS insertions paths for HTML 
       /index.htm
       /login/*
      
-    Not Recommended Insertion Path examples:
-     /*
-     *
 
 |lab1-020|
 
@@ -132,7 +129,7 @@ It is recommended that you use wildcards to select JS insertions paths for HTML 
 
 .. code-block:: text
 
-Best Practice: 
+    Best Practice: 
 
     Include examples:
       /login/*
