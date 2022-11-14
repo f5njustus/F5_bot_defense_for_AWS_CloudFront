@@ -18,14 +18,17 @@ Task 1: Lab Environment
 
 +----------------------------------------------------------------------------------------------+
 The image below represents an overview of the Distributed Cloud Bot Defense connector integration 
-methods, where                            
+methods, where we will be using our cloud edge connector on Amazon CloudFront CDN.                           
 
-|intro_arch| |
+|intro_arch| 
+
+Today's lab will focus on how to confiure in the distibuted Cloud Console, followed by a short demo 
+demonstrating how to deploy the connector and Config files in your AWS Console. 
                                                                                               
 * **F5 Distributed Cloud Console**                                                           
 * **Amazon CloudFront/ AWS Console**                                             
-+----------------------------------------------------------------------------------------------+
-| |intro_overview|                                                                                   |
+
+ |intro_overview|                                                                                   
 +----------------------------------------------------------------------------------------------+
 
 Task 2: F5 Distributed Cloud Console Login
