@@ -17,7 +17,7 @@ Before we get started, please take note of your namespace, in the event you need
 
 |lab1_namesp|
 
-2. Click **Add Application**, displayed on the center of the application screen.
+2. Click **Add Application**, displayed on the center of the Manage Application screen.
 3. Add a **Name** for the Application, and a **Description**.
 4. Select a **Region** (US, EMEA, or APJC).
 5. For **Connector Type**, select *AWS CloudFront*. Once *Amazon CloudFront* is selected, options appear to configure Amazon reference details.
