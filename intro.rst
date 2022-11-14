@@ -17,10 +17,10 @@ Task 1: Lab Environment
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------------------------------+
-| The image below represents an overview of the Distributed Cloud Bot Defense connector integration 
-| methods, where 
+| The image below represents an overview of the Distributed Cloud Bot Defense connector integration |
+| methods, where                            |
 |
-| |intro_arch|  
+| |intro_arch|                       |
 |                                                                                              |
 | * **F5 Distributed Cloud Console**                                                           |
 | * **Amazon CloudFront/ AWS Console**                                             |
