@@ -145,7 +145,11 @@ Before we continue, we are going to save the entire configuration. Navigate to t
 
 |lab1_save_config|
 
-You will see that your application has been added to the table. To edit the configuration click on the '. . .'. One of the actions will be to modify the configuration. Here you will be able to review your final configuration. Next, click Edit configuration on the top right hand corner. 
+You will see that your application has been added to the table. To edit the configuration click on the '. . .'. One of the actions will be to modify the configuration. 
+
+|lab1-026|
+
+Here you will be able to review your final configuration. Next, click Edit configuration on the top right hand corner. 
 
 |lab1_edit|
 
@@ -155,7 +159,7 @@ The **Header Name for Continue Mitigation Action** field is the header that is a
 
 |lab1_updated18|
 
-Task 6:Define Mobile SDK Settings
+Task 7:Define Mobile SDK Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. If you added mobile endpoints to your configuration, select Enable Mobile SDK.
 
@@ -173,7 +177,7 @@ Task 6:Define Mobile SDK Settings
    
    |lab1_updated25|
 
-Task 7:Trusted Client Rules (Allow List)
+Task 8:Trusted Client Rules (Allow List)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Trusted Client Rules add headers and IP addresses to an Allow List. Pages that have a specific IP or that contain specific headers are allowed to proceed to the origin and are not sent to the Bot Defense engine for evaluation. No logging is done on pages that are on the Allow List.
