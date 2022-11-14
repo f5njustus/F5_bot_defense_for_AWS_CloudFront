@@ -17,14 +17,14 @@ Task 1: Lab Environment
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------------------------------------------------------------------------+
-The image below represents an overview of the Distributed Cloud Bot Defense connector integration 
+The image below shows an overview of the Distributed Cloud Bot Defense connector integration 
 methods.                           
 
 |intro_arch| 
 
 In this lab, we will be demonstrating how to configure the connector for Amazon CloudFront CDN. 
 While the majority of the lab will be in the Distibuted Cloud (XC) Console, there will be a short demo 
-on finding and deploying the connector, and uploading the configuration files recently created in 
+video on finding and deploying the connector, and uploading the configuration files recently created in 
 the XC Console. 
                                                                                               
 * **F5 Distributed Cloud Console**                                                           
