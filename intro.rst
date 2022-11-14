@@ -27,7 +27,7 @@ While the majority of the lab will be in the Distibuted Cloud (XC) Console, ther
 video on finding and deploying the connector, and uploading the configuration files recently created in 
 the XC Console. 
                                                                                                                                         
- |intro_overview| 
+ |Intro_overview| 
  
 +----------------------------------------------------------------------------------------------+
 
@@ -84,7 +84,7 @@ step below to access the F5 Distributed Cloud Lab Tenant.
 
 .. |intro_arch| image:: images/intro_arch.png
    :width: 800px
-.. |intro_overview| image:: images/intro_overview.png
+.. |Intro_overview| image:: images/Intro_overview.png
    :width: 800px
 .. |intro002| image:: images/intro-002.png
    :width: 800px
